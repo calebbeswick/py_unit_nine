@@ -27,4 +27,4 @@ dog2.jump()
 
 
 # 5. Call the print_trick_list() again for each dog.
-# dog1.print_trick_list()
+dog1.print_trick_list()

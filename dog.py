@@ -15,7 +15,7 @@ class Dog:
 
     def roll_over(self):
         print(self.name + " rolls over")
-        self.trick_list("Rolls over")
+        self.trick_list.append("Rolls over")
 
     def jump(self):
         print(self.name + " jumps")
@@ -24,7 +24,7 @@ class Dog:
     def print_trick_list(self):
         if len(self.trick_list) == 0:
             print(self.name + " does not know any tricks")
-        for tricks in self.trick_list:
-            print()
+        else:
+            print(self.trick_list)
 
 
