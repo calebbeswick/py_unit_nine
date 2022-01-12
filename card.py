@@ -17,5 +17,5 @@ class Card:
         else:
             return self.ranks.index(self.rank) > other.ranks.index(other.rank)
 
-    def get_rank(self, rank):
-        return self.values[self.ranks.index(rank)]
+    def get_rank(self):
+        return self.values[self.ranks.index(self.rank)]
